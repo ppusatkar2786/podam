@@ -1,3 +1,11 @@
+machine:
+  java:
+    version:
+     openjdk7
+     oraclejdk8
+     oraclejdk6
+     openjdk7
+     openjdk6
 test:
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
