@@ -1,4 +1,4 @@
 test:
-   override:
+   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/tmp/
     - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/tmp/ \;
